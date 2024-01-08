@@ -4,20 +4,13 @@ public class Demo {
     public static void main(String[] args) {
         Pen pen = new Pen(Color.RED);
         System.out.println(pen);
+
+
         Car car = new Car();
-        car.color = Color.RED;
+//        car.color = Color.RED;
+        car.setColor(Color.BLUE);
         System.out.println(car);
 
     }
 }
 
-class Car{
-    Color color;
-
-    @Override
-    public String toString() {
-        return "Car{" +
-                "color=" + color +
-                '}';
-    }
-}
