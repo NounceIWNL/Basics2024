@@ -16,25 +16,8 @@ public class Demo {
 
         Apple apple = new Apple(Variety.GALA, 0.2);
         System.out.println(apple);
+        System.out.println(apple.getWeight());
 
-    }
-}
-
-class Apple{
-    private Variety variety;
-    private double weight;
-
-    public Apple(Variety variety, double weight) {
-        this.variety = variety;
-        this.weight = weight;
-    }
-
-    @Override
-    public String toString() {
-        return "Apple{" +
-                "variety=" + variety +
-                ", weight=" + weight +
-                '}';
     }
 }
 
