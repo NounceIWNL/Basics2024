@@ -1,7 +1,7 @@
 package Lesson08_01_2024;
 
-public class Car {
-    private Color color = Color.GRAY;
+public class Car  {
+        private Color color = Color.GRAY;
 
 
     public Car() {

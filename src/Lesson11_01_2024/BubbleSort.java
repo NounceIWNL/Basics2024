@@ -1,8 +1,6 @@
 package Lesson11_01_2024;
 
-import static java.util.Collections.swap;
-
-public class Bubble {
+public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = {3, 7, 4, 2, 4, 5, 8};
         for (int i = 0; i < arr.length - 1; i++) {
