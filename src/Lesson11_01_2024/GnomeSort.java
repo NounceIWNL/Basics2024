@@ -6,7 +6,7 @@ public class GnomeSort {
 
     public static void main(String[] args) {
         gnomeSort();
-        System.out.println(Arrays.toString(arr));
+        System.out.println(ArraysLesson.toString(arr));
     }
 
     public static void gnomeSort() {

@@ -13,7 +13,7 @@ public class SillySort {
 
         public static void main(String[] args) {
             dummySort();
-            System.out.println(Arrays.toString(arr));
+            System.out.println(ArraysLesson.toString(arr));
 
         }
 

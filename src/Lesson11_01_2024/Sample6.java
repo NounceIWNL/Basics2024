@@ -6,7 +6,7 @@ public class Sample6 {
     public static void main(String[] args) {
         int num = 120;
         System.out.println(getCount(num));
-        System.out.println(Arrays.toString(makeArray(getCount(num), num)));
+        System.out.println(ArraysLesson.toString(makeArray(getCount(num), num)));
 
     }
 

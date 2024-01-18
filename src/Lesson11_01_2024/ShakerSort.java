@@ -11,7 +11,7 @@ public class ShakerSort {
 
     public static void main(String[] args) {
         shakerSort();
-        System.out.println(java.util.Arrays.toString(Arrays.toString(arr)));
+        System.out.println(java.util.Arrays.toString(ArraysLesson.toString(arr)));
 
     }
     public static void shakerSort() {

@@ -2,7 +2,7 @@ package Lesson11_01_2024;
 
 //поместить в массив все простые трехзначные числа, являющиеся палиндромами
 
-public class Arrays {
+public class ArraysLesson {
     public static void main(String[] args) {
         //определить длину массива
         //ялвляется ли число простым
