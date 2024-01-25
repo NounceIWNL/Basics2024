@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="io.whelk.hy.phen.a.tion" type="repository">
+    <properties maven-id="io.whelk.hy.phen:whelk-hy-phen-a-tion:0.1.14" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/whelk/hy/phen/whelk-hy-phen-a-tion/0.1.14/whelk-hy-phen-a-tion-0.1.14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
