@@ -13,4 +13,4 @@ public class Scramble {
         }
         System.out.println(result);
     }
-} 
+}
