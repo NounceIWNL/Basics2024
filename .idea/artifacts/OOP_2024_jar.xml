@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OOP_2024:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/OOP_2024_jar</output-path>
+    <root id="archive" name="OOP_2024.jar">
+      <element id="module-output" name="OOP_2024" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/whelk/hy/phen/whelk-hy-phen-a-tion/0.1.14/whelk-hy-phen-a-tion-0.1.14.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/javadev/moneytostr/1.21/moneytostr-1.21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/number2words-0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/invitrode-12e5d68.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
