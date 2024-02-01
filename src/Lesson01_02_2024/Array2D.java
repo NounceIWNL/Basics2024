@@ -10,7 +10,7 @@ public class Array2D {
 
     public static void main(String[] args) {
 //        oneCircle(0, numRows - 1, 0, numCols - 1);
-        oneCircle2();
+//        oneCircle2();
         System.out.println(arrToStringAligned());
     }
 
@@ -52,7 +52,7 @@ public class Array2D {
         for (int i = lastRow - 1; i > firstRow; i--)
             arr[i][firstColumn] = index++;
         //printElement(i,firstColumn);
-        oneCircle(firstRow + 1, firstColumn + 1, i);
+//        oneCircle(firstRow + 1, firstColumn + 1,);
     }
 
     //Преобразовать в строку с выравниванием
