@@ -1,10 +1,15 @@
 package Lesson05_02_2024;
 
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.TimeZone;
 
 public class Dates {
     public static void main(String[] args) {
@@ -19,8 +24,27 @@ public class Dates {
         LocalDateTime dateTime = LocalDateTime.now(ZoneId.of("America/Los_Angeles"));
         System.out.println(dateTime);
 
-        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("hh:mm:ss");
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd/MM/yy hh:mm");
         String formattedDate = dateTimeFormatter.format(dateTime);
         System.out.println(formattedDate);
+
+        dateTime = LocalDateTime.parse("2024-02-08T19:34");
+        System.out.println(dateTime.format(dateTimeFormatter));
+
+        //сложение дат
+        Calendar calendar = new GregorianCalendar();
+        Date dateNow = new Date();
+
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yy");
+        System.out.println(simpleDateFormat.format(dateNow));
+
+        calendar.add(Calendar.DATE,22);
+        System.out.println(simpleDateFormat.format(calendar.getTime()));
+
+        TimeZone timeZone = TimeZone.getDefault();
+        System.out.println(timeZone);
+        System.out.println(timeZone.getDisplayName());
+
     }
 }
+
