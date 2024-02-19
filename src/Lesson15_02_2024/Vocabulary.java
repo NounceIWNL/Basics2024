@@ -80,8 +80,49 @@ public class Vocabulary {
 
         String key = "", key2 = "";
         Map.Entry<String, String> enytry2 = null;
-        for(Map.eEtry<String, String> entry:anagrams.entries()){
-            key = dsa
-        };
+        for (Map.Entry<String, String> entry : anagrams.entries()) {
+        }
+        ;
+
+
+        //6. Найти слова с тремя одинаковыми буквами
+        it = vocab.listIterator(0);
+        while (it.hasNext()) {
+            String s = it.next();
+            char[] arr = s.toCharArray();
+            Arrays.sort(arr);
+            count = 1;
+            char c = ' ';
+            for (i = 0; i < arr.length; i++) {
+                char c2 = arr[i];
+                if (c == c2) count++;
+                else count = 1;
+                if (count == 3) { //Проверить с 4-мя буквами
+                    System.out.print(s + " ");
+                    break;
+                }
+                c = c2;
+            }
+        }
+        System.out.println();
+
+        //7. Найти слова, где 3 буквы следуют в алфавитном порядке
+        it = vocab.listIterator(0);
+        while (it.hasNext()) {
+            String s = it.next();
+            char[] arr = s.toCharArray();
+            count = 1;
+            char c = ' ';
+            for (i = 0; i < arr.length; i++) {
+                char c2 = arr[i];
+                if (c2 - c == 1) count++;
+                else count = 1;
+                if (count == 3) { //Проверить с 4-мя буквами
+                    System.out.print(s + " ");
+                    break;
+                }
+                c = c2;
+            }
         }
     }
+}
