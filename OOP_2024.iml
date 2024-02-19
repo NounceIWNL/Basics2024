@@ -11,5 +11,6 @@
     <orderEntry type="library" name="github.javadev.moneytostr" level="project" />
     <orderEntry type="library" name="io.whelk.hy.phen.a.tion" level="project" />
     <orderEntry type="library" name="invitrode-12e5d68" level="project" />
+    <orderEntry type="library" name="google.guava" level="project" />
   </component>
 </module>
